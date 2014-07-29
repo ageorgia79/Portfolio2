@@ -43,7 +43,7 @@ a {
 }
 
 
-.myName {
+.nameTitle {
     display: block;
     text-align: center;
     font-size: 70px;
@@ -54,10 +54,10 @@ a {
     top: 50px;
 }
 
-.headerEmail {
+.titleEmail {
     display: inline-block;
     //float: left;
-    margin-left: 470px;
+    margin-left: 520px;
 
     a {
         text-decoration: none;
@@ -68,7 +68,7 @@ a {
     }
 }
 
-.headerPhone {
+.titlePhone {
     display: inline-block;
     margin-bottom: 10px;
 
@@ -80,7 +80,7 @@ a {
     }
 }
 
-.secondContainer {
+.containerTwo {
     border-top: 3px solid black;
     padding: 10px;
     background-color: #FFFFCC;
@@ -99,7 +99,7 @@ a {
 
 
 
-.works {
+.projects {
     padding: 10px;
     margin: 0px auto;
     display: block;
@@ -112,7 +112,7 @@ a {
     color: white;
 }
 
-.sampleIMG {
+.projectImage {
     display: inline-block;
     height: 240px;
     min-height: 250px;
@@ -393,6 +393,7 @@ a {
     -webkit-box-shadow: 0 8px 6px -6px black;
        -moz-box-shadow: 0 8px 6px -6px black;
             box-shadow: 0 8px 6px -6px black;
+}
 }
 
 
