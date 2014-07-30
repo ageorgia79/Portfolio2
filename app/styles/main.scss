@@ -48,10 +48,9 @@ a {
     text-align: center;
     font-size: 90px;
     font-family: 'Titillium Web', sans-serif;
-    margin-left: 10px;
-    margin-right: 10px;
     position: relative;
     top: 70px;
+
 }
 
 .titleEmail {
@@ -170,6 +169,7 @@ a {
     background-color: black;
     padding: 20px;
     color: white;
+    margin-bottom: 30px;
 
 }
 
@@ -213,6 +213,7 @@ a {
 
     a {
         text-decoration: none;
+        cursor: pointer;
     }
 }
 
