@@ -354,28 +354,25 @@ a {
     .projects {
         padding: 0px;
         height: 700px;
-        img {
-            width: 400px;
-
-        }
-
-
     }
+      
+
+
 
     .nameTitle {
         font-size: 35px;
         position: relative;
         bottom: 190px;
-        margin-left: 20%;
-        margin-right: 20%;
+        
 
 
     }
 
-   .sampleIMG {
-        width: calc(100% - 20px);
-        height: 240px;
-        margin-left: 10px;
+   .projectImage {
+        img {
+        width: calc(190% - 20px);
+        height: 100%;
+        }
 
     }
 
