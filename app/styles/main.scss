@@ -272,9 +272,12 @@ a {
         font-size: 55px;
     }
 
+  
+
 
    .projects {
     display: block;
+    padding: 10px;
     width: 100%;
     height: 800px;
     }
@@ -317,7 +320,7 @@ a {
     }
 
     .containerTwo {
-        width: 100%;
+        width: 105%;
         padding: 10px;
     }
 
@@ -339,6 +342,16 @@ a {
         a {
             font-size: 20px;
         }
+    }
+
+    .headerimg {
+        display: block;
+        width: 110%;
+    }
+
+    .sampleinfo {
+        width: 85%;
+
     }
 
     }
@@ -477,7 +490,7 @@ a {
 
 .headerimg {
     display: block;
-    width: 105%;
+    width: 110%;
     height: 150px;
     padding-top: 150px;
 }
