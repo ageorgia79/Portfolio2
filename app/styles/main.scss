@@ -49,7 +49,7 @@ a {
     font-size: 90px;
     font-family: 'Titillium Web', sans-serif;
     position: relative;
-    top: 70px;
+    margin-top: 70px;
 
 }
 
@@ -63,19 +63,20 @@ a {
         margin-right: 30px;
         font-size: 30px;
         position: relative;
-        top: 70px;
+        //top: 70px;
     }
 }
 
 .titlePhone {
     display: inline-block;
     margin-bottom: 10px;
+   
 
     a {
         text-decoration: none;
         font-size: 30px;
         position: relative;
-        top: 70px;
+        //top: 70px;
     }
 }
 
@@ -257,7 +258,7 @@ a {
     background-color: white;
     opacity: 0.4;
 }
-   .works {
+   .projects {
     display: block;
     width: 100%;
     height: 400px;
@@ -279,17 +280,6 @@ a {
 
     }
 
-    .projectName {
-        font-size: 22px;
-        font-weight: 700;
-    }
-
-    .projectDescrip {
-        margin-top: 0px;
-        margin-bottom: 0px;
-        font-size: 12px;
-    }
-
     .toolsUsed {
         font-size: 18px;
         color: black;
@@ -305,22 +295,75 @@ a {
     .secondContainer {
         padding: 0px;
     }
+
+
 }
 
 @media screen and (max-width: 450px) {
+
+
+    .projectName {
+        margin-left: 20px;
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .projectDescrip {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 20px;
+        font-size: 12px;
+    }
+
+    .toolbarButtons {
+        display: inline-block;
+        position: relative;
+        bottom: 180px;
+        margin-left: 5px;
+        margin-right: 5px;
+        
+        a{
+            font-size: 18px;
+            position: relative;
+
+        }
+    }
+
+    .toolbarButtonsFirst {
+        margin-left: 30px;
+    }
     .toolsUsed {
         font-size: 18px;
-        color: black;
+        color: white;
         margin-bottom: 10px;
+        margin-left: 20px;
+        //margin-top: 20px;
+    }
+
+    .tools {
+        margin-left: 20px;
+        margin-top: 20px;
     }
 
     .links {
         
-        margin-right: 0px;
+        margin-right: 20px;
     }
-    .works {
+    .projects {
         padding: 0px;
-        height: 420px;
+        height: 620px;
+        img {
+
+
+        }
+
+
+    }
+
+    .nameTitle {
+        font-size: 35px;
+        position: relative;
+        bottom: 190px;
 
 
     }
@@ -342,17 +385,28 @@ a {
     }
 
 
-.headerEmail {
-    display: block;
-    float: left;
-    margin-left: 5px;
+.titleEmail {
+    display: inline-block;
+    margin-left: 15%;
+    position: relative;
+    bottom: 200px;
+    a {
+        font-size: 15px;
+        margin-right: 10px;
+
+
+
+    }
 }
 
-.headerPhone {
+.titlePhone {
     display: inline-block;
-    float: right;
-    margin-right: 5px;
-    margin-bottom: 10px;
+    position: relative;
+    bottom: 200px;
+    a {
+        font-size: 15px;
+    }
+    
 }
 
 .myNamebackground {
@@ -361,15 +415,12 @@ a {
     width: 100%;
 }
 
-.myName {
-    font-size: 25px;
-}
+
 
 .headerimg {
     display: block;
     width: 100%;
     height: 150px;
-    background-size: 100%;
     padding-top: 150px;
 }
 
