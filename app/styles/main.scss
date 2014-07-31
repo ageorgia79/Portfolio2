@@ -308,7 +308,7 @@ a {
 
     .projectName {
         width: 100%;
-        margin-top: 20px;
+        //margin-top: 20px;
         margin-left: 20px;
         font-size: 32px;
         font-weight: 700;
@@ -321,6 +321,8 @@ a {
         margin-left: 20px;
         font-size: 14px;
     }
+
+
 
     .toolbarButtons {
         display: inline-block;
@@ -383,11 +385,11 @@ a {
 
     }
 
-        .sampleInfo {
-        width: calc(100% - 40px);
-        height: 180px;
+    .sampleInfo {
+        width: 85%;
+        //height: 180px;
         padding-left: 15px;
-        margin-left: 10px;
+      
 
 
     }
