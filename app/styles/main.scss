@@ -303,12 +303,14 @@ a {
 
 
     .projectName {
+        margin-top: 30px;
         margin-left: 20px;
         font-size: 32px;
         font-weight: 700;
     }
 
     .projectDescrip {
+        width: 90%;
         margin-top: 0px;
         margin-bottom: 0px;
         margin-left: 20px;
@@ -330,7 +332,7 @@ a {
     }
 
     .toolbarButtonsFirst {
-        margin-left: 30px;
+        margin-left: 10%;
     }
     .toolsUsed {
         font-size: 18px;
@@ -351,9 +353,9 @@ a {
     }
     .projects {
         padding: 0px;
-        height: 620px;
+        height: 700px;
         img {
-
+            
 
         }
 
@@ -364,6 +366,8 @@ a {
         font-size: 35px;
         position: relative;
         bottom: 190px;
+        margin-left: 20%;
+        margin-right: 20%;
 
 
     }
