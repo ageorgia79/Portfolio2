@@ -10,8 +10,6 @@ a {
     color: #000000;
 }
 
-
-
 .toolbarButtons {
     display: inline-block;
     line-height: 80px;
@@ -61,15 +59,11 @@ a {
 
 .titleEmail {
     display: inline-block;
-    //float: left;
-    //margin-left: 430px;
-
     a {
         text-decoration: none;
         margin-right: 30px;
         font-size: 30px;
         position: relative;
-        //top: 70px;
     }
 }
 
@@ -82,16 +76,13 @@ a {
         text-decoration: none;
         font-size: 30px;
         position: relative;
-        //top: 70px;
     }
 }
 
 .containerTwo {
     border-top: 3px solid black;
-    //padding: 10px;
     background-color: #FFFFCC;
     width: 100%;
-    
 }
 
 .portfolio {
@@ -104,10 +95,7 @@ a {
     width: 100%;
 }
 
-
-
 .projects {
-    //padding: 10px;
     margin: 0px auto;
     display: block;
     background-color: black;
@@ -115,7 +103,6 @@ a {
     height: 320px;
     margin-bottom: 50px;
     margin-top: 5px;
-    //border: 2px solid white;
     color: white;
 }
 
@@ -262,28 +249,28 @@ a {
 
 @media screen and (max-width: 1350px) {
 
-   .projects {
+.projects {
         display: block;
         width: 100%;
         height: 700px;
    }
 
-   .projectName {
+.projectName {
     width: 100%;
     margin-left: 0px;
    }
 
-   .projectDescrip {
+.projectDescrip {
     width: 95%;
     margin-left: 0px;
    }
 
-   .sampleInfo {
+.sampleInfo {
     display: block;
     width: 90%;
    }
 
-   .projectImage {
+.projectImage {
     height: 350px;
     width: 100%;
     text-align: center;
@@ -301,7 +288,7 @@ a {
 
 @media screen and (max-width: 845px) {
 
-    .myNamebackground {
+.myNamebackground {
     display: block;
     float: right;
     margin-right: 0px;
@@ -309,28 +296,24 @@ a {
     opacity: 0.4;
 }
 
-    .nameTitle {
-        font-size: 55px;
+.nameTitle {
+    font-size: 55px;
     }
 
-  
-
-
-   .projects {
+.projects {
     display: block;
-    //padding: 10px;
     width: 100%;
     height: 800px;
     }
 
-    .portfolio {
-        width: 100%;
+.portfolio {
+    width: 100%;
     }
 
-    .projectImage {
-     height: 350px;   
-     width: 100%;
-     text-align: center;
+.projectImage {
+    height: 350px;   
+    width: 100%;
+    text-align: center;
      img {
         width: 100%;
         height: 100%;
@@ -338,68 +321,67 @@ a {
         margin-right: auto;
         border: 1px solid white;
         margin-top: 20px;
-        
-
+  
      }
         
-    }
+}
 
-    .sampleInfo {
-        display: block;
-        height: 140px;
-        width: 90%;
-        margin-left: 5px;
-
-    }
-
-    .toolsUsed {
-        font-size: 18px;
-        color: black;
-        margin-bottom: 0px;
-    }
-
-    .links {
-        font-size: 15px;
-        float: right;
-        margin-right: 50px;
-    }
-
-    .containerTwo {
-        width: 100%;
-        //padding: 10px;
-    }
-
-    .projectName {
-        width: 100%;
-        margin-left: 0px;
-    }
-
-    .projectDescrip {
-        width: 95%;
-        margin-left: 0px;
-    }
-
-    .toolsUsed {
-        color: white;
-    }
-
-    .links {
-        a {
-            font-size: 20px;
-        }
-    }
-
-    .headerimg {
-        display: block;
-        width: 100%;
-    }
-
-    .sampleinfo {
-        width: 85%;
+.sampleInfo {
+    display: block;
+    height: 140px;
+    width: 90%;
+    margin-left: 5px;
 
     }
 
+.toolsUsed {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 0px;
     }
+
+.links {
+    font-size: 15px;
+    float: right;
+    margin-right: 50px;
+    }
+
+.containerTwo {
+    width: 100%;
+    }
+
+.projectName {
+    width: 100%;
+    margin-left: 0px;
+    }
+
+.projectDescrip {
+    width: 95%;
+    margin-left: 0px;
+    }
+
+.toolsUsed {
+    color: white;
+    }
+
+.links {
+    a {
+        font-size: 20px;
+    }
+}
+
+.headerimg {
+    display: block;
+    width: 100%;
+
+    }
+
+.sampleinfo {
+    width: 85%;
+
+    }
+
+}
 
 
 
@@ -407,110 +389,98 @@ a {
 @media screen and (max-width: 450px) {
 
 
-    .projectName {
-        width: 100%;
-        //margin-top: 20px;
-        margin-left: 20px;
-        font-size: 32px;
-        font-weight: 700;
+.projectName {
+    width: 100%;
+    margin-left: 20px;
+    font-size: 32px;
+    font-weight: 700;
     }
 
-    .projectDescrip {
-        width: 95%;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        margin-left: 20px;
-        font-size: 14px;
+.projectDescrip {
+    width: 95%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    font-size: 14px;
     }
 
 
 
-    .toolbarButtons {
-        display: inline-block;
-        position: relative;
-        bottom: 180px;
-        margin-left: 5px;
-        margin-right: 5px;
+.toolbarButtons {
+    display: inline-block;
+    position: relative;
+    bottom: 180px;
+    margin-left: 5px;
+    margin-right: 5px;
         
-        a{
-            font-size: 18px;
-            position: relative;
-
-        }
-    }
-
-    .toolbarButtonsFirst {
-        margin-left: 10%;
-    }
-    .toolsUsed {
+    a{
         font-size: 18px;
-        color: white;
-        margin-bottom: 10px;
-        margin-left: 20px;
-        //margin-top: 20px;
-    }
-
-    .tools {
-        margin-left: 20px;
-        margin-top: 20px;
-    }
-
-    .links {
-        
-        margin-right: 20px;
-    }
-    .projects {
-        padding: 0px;
-        height: 700px;
-    }
-
-   
-
-
-    .nameTitle {
-        text-align: center;
-        font-size: 35px;
         position: relative;
-        bottom: 190px;
 
+    }
+}
+
+.toolbarButtonsFirst {
+    margin-left: 10%;
+    }
+
+.toolsUsed {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 20px;
         
+    }
 
+.tools {
+    margin-left: 20px;
+    margin-top: 20px;
 
     }
 
-   .projectImage {
-        width: 100%;
-        img {
-        border: 1px solid white;
-        width: 100%;
-        height: 70%;
-        margin-top: 60px;
+.links {
+    margin-right: 20px;
+
+    }
+
+.projects {
+    padding: 0px;
+    height: 700px;
+
+    }
+
+.nameTitle {
+    text-align: center;
+    font-size: 35px;
+    position: relative;
+    bottom: 190px;
+
+    }
+        
+.projectImage {
+    width: 100%;
+    img {
+    border: 1px solid white;
+    width: 100%;
+    height: 70%;
+    margin-top: 60px;
         }
-
     }
 
-    .sampleInfo {
-        width: 85%;
-        //height: 180px;
-        padding-left: 15px;
+.sampleInfo {
+    width: 85%;
+    padding-left: 15px;
+
+    }
       
-
-
-    }
-
-
 .titleEmail {
     text-align: center;
     display: inline-block;
-    //margin-left: 17%;
     position: relative;
     bottom: 200px;
     a {
         font-size: 15px;
         margin-right: 10px;
-
-
-
     }
 }
 
@@ -530,8 +500,6 @@ a {
     margin-top: 70px;
     width: 100%;
 }
-
-
 
 .headerimg {
     display: block;
@@ -559,8 +527,6 @@ a {
     font-size: 15px;
 }
 
-
-
 .fourthCenter {
     margin: 0px auto;
     background-color: white;
@@ -568,5 +534,6 @@ a {
     -webkit-box-shadow: 0 8px 6px -6px black;
        -moz-box-shadow: 0 8px 6px -6px black;
             box-shadow: 0 8px 6px -6px black;
+    }
 }
-}
+
